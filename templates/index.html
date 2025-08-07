@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reconocer digitos</title>
+    <script src="{{ url_for('static', filename='script.js') }}" defer></script>
+
+</head>
+<body>
+    <h1>Dibuja un numero</h1>
+    <canvas id="canvas" width="280" height="280" style="border:1px solid #000"></canvas><br>
+    <button onclick="cleanCanvas()">Limpiar</button>
+    <button onclick="sendImage()">prededcir</button>
+    <h2 id="resultado">Resultado: </h2>
+</body>
+</html>
